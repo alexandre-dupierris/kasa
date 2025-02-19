@@ -1,0 +1,16 @@
+@use "./variables";
+
+.rating {
+    display: flex;
+    width: max-content;
+    gap: 10px;
+    i {
+        font-size: 24px;
+    }
+    &-coloredStar {
+        color: variables.$primary-color;
+    }
+    &-grayStar {
+        color: #E3E3E3;
+    }
+}

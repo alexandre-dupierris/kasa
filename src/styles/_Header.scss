@@ -1,0 +1,17 @@
+@use "./variables";
+
+.header {
+    display: flex;
+	justify-content: space-between;
+    max-width: 1440px;
+    margin: 20px auto;
+    width: 90%;
+    &_img{
+        width:210px;
+        height: auto;
+        fill: variables.$primary-color;
+        @media (max-width: variables.$breakpoint){
+            width:145px;
+        }
+    }
+}
