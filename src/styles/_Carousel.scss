@@ -12,9 +12,14 @@
     }
     &_preview, &_next {
         position: absolute;
-        left: 10px;
         font-size: 48px;
         color: variables.$secondary-color;
+    }
+    &_preview {
+        left: 10px;
+    }
+    &_next {
+        right: 10px;
     }
     &_counter {
         display: flex;
