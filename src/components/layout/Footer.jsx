@@ -1,4 +1,4 @@
-import logoBlanc from "../../assets/images/logoBlanc.png"
+import logoBlanc from "../../assets/images/logoBlanc.png";
 
 export default function Footer() {
     return (

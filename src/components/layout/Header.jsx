@@ -1,5 +1,5 @@
-import logoRose from "../../assets/images/logoRose.png"
-import Nav from "../ui/Nav"
+import logoRose from "../../assets/images/logoRose.png";
+import Nav from "../ui/Nav";
 
 export default function Header() {
   return (
